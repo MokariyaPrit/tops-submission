@@ -1,0 +1,9 @@
+omparison · TXT
+| Database   | Licence                                              | Needs a server | One real use                                        |
+|------------|------------------------------------------------------|----------------|-----------------------------------------------------|
+| MySQL      | Dual-licensed: free under GPL, or paid commercial terms | Yes            | Uber's trip data store is built on top of it        |
+| PostgreSQL | Permissive open-source licence, similar to BSD or MIT | Yes            | Location and mapping data, using its PostGIS add-on |
+| Oracle     | Proprietary and paid; a capped free edition exists   | Yes            | Core banking database at Saigon Commercial Bank     |
+| SQLite     | Public domain; no licence needed                     | No             | Storing data inside every Android and iPhone device |
+ 
+Chosen for the bus pass system: PostgreSQL
